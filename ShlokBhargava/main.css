@@ -65,3 +65,21 @@ i{
   color: rgb(102, 98, 98);
   font-size: 30px;
 }
+
+@media (max-width: 360px){
+  .logo{
+    width: 75px;
+  }
+}
+
+@media (max-height: 568px){
+  .log-form{
+    top: 60%;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 823px){
+  .log-form{
+    top: 95%;
+  }
+}
